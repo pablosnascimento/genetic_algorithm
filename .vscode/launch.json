@@ -1,0 +1,24 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: main.py",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",//"${file}",
+            //opcao sobre onde vai exibir os resultados: na aba terminal ou debug console
+            "console": "internalConsole",//"integratedTerminal",
+            "env": { "PYTHONPATH": "${workspaceRoot}"},
+            "args" : ["-p", "tsp"]
+        },
+        {
+          "name": "Python: main.py",
+          "type": "python",
+          "request": "launch",
+          "program": "${file}",
+          "console": "externalTerminal",
+
+        }
+    ]
+}
